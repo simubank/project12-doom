@@ -1,6 +1,6 @@
 {
-  "name": "TdMyStudent",
-  "app_id": "D1B1B3DE",
+  "name": "td-mystudent",
+  "app_id": "06e1d8b4",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
