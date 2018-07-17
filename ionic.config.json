@@ -1,0 +1,8 @@
+{
+  "name": "td-mystudent",
+  "app_id": "06e1d8b4",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
