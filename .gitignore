@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+*.iml
+.gradle
+/local.properties
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+=======
 # Specifies intentionally untracked files to ignore when using Git
 # http://git-scm.com/docs/gitignore
 
@@ -33,3 +45,4 @@ $RECYCLE.BIN/
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
+>>>>>>> 1c52f82d29fff1d2a5010a862014f24cc8046986
