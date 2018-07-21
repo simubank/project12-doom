@@ -172,6 +172,7 @@
                 android:orientation="vertical"
                 android:layout_alignParentBottom="true">
                 <Button
+                    android:id="@+id/main_btnContact"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:theme="@style/LongButton"
