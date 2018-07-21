@@ -12,11 +12,22 @@
         <item name="android:progressDrawable">@drawable/custom_progressbar</item>
         <item name="android:minWidth">200dp</item>
     </style>
+    <style name="AltProgressBar" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/custom_progressbar_alt</item>
+        <item name="android:minWidth">200dp</item>
+    </style>
 
     <style name="TextH2" parent="@style/TextAppearance.AppCompat">
         <item name="android:textSize">14sp</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BigButton" parent="Widget.AppCompat.Button">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorSecondary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
 </resources>

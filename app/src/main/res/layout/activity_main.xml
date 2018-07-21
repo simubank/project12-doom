@@ -6,9 +6,11 @@
     android:orientation="vertical"
     android:layout_margin="@dimen/app_margin"
     tools:context=".MainActivity">
+
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/control_margin">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -16,7 +18,6 @@
             style="@style/TextH2"
             android:text="@string/txt_currentSavings"/>
     </RelativeLayout>
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="50dp"
@@ -74,8 +75,79 @@
         </RelativeLayout>
     </LinearLayout>
 
-    <Button
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/control_margin">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            style="@style/TextH2"
+            android:textColor="@color/colorSecondaryDark"
+            android:text="@string/txt_currentSpending"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/rounded_rectangle_alt">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_txtSpendingPercentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorSecondaryLight"
+                android:textStyle="bold"
+                android:text="20%" />
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/AltProgressBar"
+                android:id="@+id/main_prgSpending"
+                android:progress="20"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerInParent="true">
+                <TextView
+                    android:id="@+id/main_txtSpendingAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:text="$100"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" / $400"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorSecondary"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="@dimen/control_margin"
+        android:theme="@style/BigButton"
         android:text="@string/btn_contribute"/>
 </LinearLayout>
