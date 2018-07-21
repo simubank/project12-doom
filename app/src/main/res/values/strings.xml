@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">TD MyStudent</string>
     <string name="btn_contribute">Contribute to Goal</string>
+    <string name="txt_currentSavings">Current Savings</string>
 </resources>

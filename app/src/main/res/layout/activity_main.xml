@@ -7,15 +7,24 @@
     android:layout_margin="16dp"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="@string/txt_currentSavings"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
         android:orientation="horizontal"
+        android:padding="10dp"
         android:background="@drawable/rounded_rectangle">
         <TextView
             android:id="@+id/main_txtSavingsPercentage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:textColor="@color/colorPrimaryLight"
+            android:textStyle="bold"
             android:text="20%" />
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:tools="http://schemas.android.com/tools"
@@ -24,15 +33,33 @@
             <ProgressBar
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/main_prgSavings" />
-            <TextView
+                style="@style/CustomProgressBar"
+                android:id="@+id/main_prgSavings"
+                android:progress="20"/>
+
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#00000000"
-                android:layout_alignLeft="@id/main_prgSavings"
-                android:layout_alignTop="@id/main_prgSavings"
-                android:layout_alignRight="@id/main_prgSavings"
-                android:layout_alignBottom="@id/main_prgSavings" />
+                android:orientation="horizontal"
+                android:layout_centerInParent="true">
+                <TextView
+                    android:id="@+id/main_txtSavingsAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:text="$100"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" / $400"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorPrimary"/>
+            </LinearLayout>
+
         </RelativeLayout>
     </LinearLayout>
 
