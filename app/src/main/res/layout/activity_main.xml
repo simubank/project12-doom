@@ -163,5 +163,22 @@
             android:theme="@style/BigButton"
             android:text="@string/btn_contribute"/>
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/LongButton"
+                    android:text="@string/txt_contact"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+        </RelativeLayout>
+
     </LinearLayout>
 </LinearLayout>

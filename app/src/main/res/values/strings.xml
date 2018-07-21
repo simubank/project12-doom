@@ -3,4 +3,5 @@
     <string name="btn_contribute">Contribute to Goal</string>
     <string name="txt_currentSavings">Current Savings</string>
     <string name="txt_currentSpending">Current Spending</string>
+    <string name="txt_contact">Consult Financial Advisor</string>
 </resources>
