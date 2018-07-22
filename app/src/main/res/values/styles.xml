@@ -34,6 +34,12 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="TextUser" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
     <style name="BigButton" parent="Widget.AppCompat.Button">
         <item name="colorButtonNormal">@color/colorPrimary</item>
         <item name="colorControlHighlight">@color/colorSecondary</item>

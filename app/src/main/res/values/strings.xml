@@ -7,4 +7,5 @@
     <string name="txt_contact">Consult Financial Advisor</string>
     <string name="txt_goalDetails">Goal Details</string>
     <string name="txt_applyLoan">Apply for Loan</string>
+    <string name="txt_userPrefix">Hi, </string>
 </resources>

@@ -79,6 +79,17 @@
             android:layout_alignBottom="@id/main_imgHeader"
             android:layout_centerHorizontal="true"
             android:text="@string/txt_savings"/>
+
+        <TextView
+            android:id="@+id/main_txtUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextUser"
+            android:textColor="@android:color/white"
+            android:layout_alignBottom="@id/main_imgHeader"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/control_margin"
+            android:text="@string/txt_userPrefix"/>
     </RelativeLayout>
 
     <LinearLayout
