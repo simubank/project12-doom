@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoalActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/main_imgHeader"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/forest_path"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/btnHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/menu_marginTop"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/ic_home_icon" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@android:color/white"
+                        style="@style/TextMenu"
+                        android:text="@string/txt_home"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/btnApplyLoan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/menu_marginTop"
+                android:layout_marginLeft="@dimen/control_margin"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/ic_list_icon" />
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@android:color/white"
+                    style="@style/TextMenu"
+                    android:text="@string/txt_applyLoan"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/main_txtHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextH1"
+            android:textColor="@android:color/white"
+            android:layout_alignBottom="@id/main_imgHeader"
+            android:layout_centerHorizontal="true"
+            android:text="@string/txt_goals"/>
+
+        <TextView
+            android:id="@+id/main_txtUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextUser"
+            android:textColor="@android:color/white"
+            android:layout_alignBottom="@id/main_imgHeader"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/control_margin"
+            android:text="@string/txt_userPrefix"/>
+    </RelativeLayout>
+
+</LinearLayout>

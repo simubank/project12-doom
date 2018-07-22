@@ -89,7 +89,7 @@
             android:layout_alignBottom="@id/main_imgHeader"
             android:layout_alignParentRight="true"
             android:layout_margin="@dimen/control_margin"
-            android:text="@string/txt_userPrefix"/>
+            android:text="@strin"/>
     </RelativeLayout>
 
     <LinearLayout
