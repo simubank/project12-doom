@@ -5,11 +5,25 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-    
-    <ImageView
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="@drawable/forest_path"/>
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/main_imgHeader"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/forest_path"/>
+        <TextView
+            android:id="@+id/main_txtHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextH1"
+            android:textColor="@android:color/white"
+            android:layout_alignBottom="@id/main_imgHeader"
+            android:layout_centerHorizontal="true"
+            android:text="@string/txt_savings"/>
+    </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -68,9 +82,8 @@
                         android:id="@+id/main_txtSavingsAmount"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="#00000000"
                         android:text="$100"
-                        android:textColor="#fff"
+                        android:textColor="@android:color/white"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:textAlignment="center"/>
