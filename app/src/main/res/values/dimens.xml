@@ -3,4 +3,5 @@
     <dimen name="app_margin">20dp</dimen>
     <dimen name="section_margin">20dp</dimen>
     <dimen name="control_margin">10dp</dimen>
+    <dimen name="menu_marginTop">6dp</dimen>
 </resources>

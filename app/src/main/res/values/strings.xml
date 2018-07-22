@@ -5,4 +5,6 @@
     <string name="txt_currentSavings">Current Savings</string>
     <string name="txt_currentSpending">Current Spending</string>
     <string name="txt_contact">Consult Financial Advisor</string>
+    <string name="txt_goalDetails">Goal Details</string>
+    <string name="txt_applyLoan">Apply for Loan</string>
 </resources>
