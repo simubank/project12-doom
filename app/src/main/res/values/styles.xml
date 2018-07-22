@@ -43,7 +43,7 @@
     </style>
 
     <style name="LongButton" parent="@style/BigButton">
-        <item name="textSize">14sp</item>
+        <item name="android:textSize">14sp</item>
         <item name="android:textStyle">normal</item>
     </style>
 
