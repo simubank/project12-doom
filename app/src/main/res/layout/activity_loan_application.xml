@@ -22,7 +22,7 @@
             android:orientation="horizontal">
 
             <LinearLayout
-                android:id="@+id/btnApplyLoan"
+                android:id="@+id/loanapp_btnApplyLoan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/menu_marginTop"
@@ -45,7 +45,7 @@
                     android:text="@string/txt_goalDetails"/>
             </LinearLayout>
             <LinearLayout
-                android:id="@+id/btnHome"
+                android:id="@+id/loanapp_btnHome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/menu_marginTop"
@@ -72,7 +72,7 @@
                 </RelativeLayout>
             </LinearLayout>
             <LinearLayout
-                android:id="@+id/btnRefer"
+                android:id="@+id/loanapp_btnRefer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/menu_marginTop"
