@@ -11,4 +11,8 @@
     <string name="txt_goalDetails">Goal Details</string>
     <string name="txt_applyLoan">Apply for Loan</string>
     <string name="txt_userPrefix">Hi, </string>
+    <string name="rad_daily">Daily</string>
+    <string name="rad_weekly">Weekly</string>
+    <string name="rad_monthly">Monthly</string>
+    <string name="rad_yearly">Yearly</string>
 </resources>
