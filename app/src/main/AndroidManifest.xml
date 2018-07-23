@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GoalActivity"></activity>
+        <activity android:name=".GoalActivity" />
+        <activity android:name=".LoanApplicationActivity"></activity>
     </application>
 
 </manifest>
