@@ -20,29 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:orientation="horizontal">
-            <LinearLayout
-                android:id="@+id/btnGoalDetails"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/menu_marginTop"
-                android:orientation="vertical">
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerHorizontal="true"
-                        android:background="@drawable/ic_adjust_icon" />
-                </RelativeLayout>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:textColor="@android:color/white"
-                    style="@style/TextMenu"
-                    android:text="@string/txt_goalDetails"/>
-            </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/btnApplyLoan"
                 android:layout_width="wrap_content"
@@ -66,6 +44,53 @@
                     android:textColor="@android:color/white"
                     style="@style/TextMenu"
                     android:text="@string/txt_applyLoan"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/btnGoalDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/menu_marginTop"
+                android:layout_marginLeft="@dimen/control_margin"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/ic_adjust_icon" />
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    style="@style/TextMenu"
+                    android:text="@string/txt_goalDetails"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/btnRefer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/menu_marginTop"
+                android:layout_marginLeft="@dimen/control_margin"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/ic_add_person_icon" />
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@android:color/white"
+                    style="@style/TextMenu"
+                    android:text="@string/txt_refer"/>
             </LinearLayout>
         </LinearLayout>
 
