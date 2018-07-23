@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".GoalActivity" />
-        <activity android:name=".LoanApplicationActivity"></activity>
+        <activity android:name=".LoanApplicationActivity" />
+        <activity android:name=".ReferralActivity"></activity>
     </application>
 
 </manifest>
