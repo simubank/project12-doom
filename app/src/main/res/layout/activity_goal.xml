@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GoalActivity">
+    tools:context=".GoalActivity"
+    android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -95,5 +96,42 @@
             android:layout_margin="@dimen/control_margin"
             android:text="@string/txt_userPrefix"/>
     </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/app_margin">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:padding="@dimen/control_margin"
+            android:background="@drawable/rounded_rectangle"
+            android:backgroundTint="@color/colorNeutralLight">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/TextH2"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="@string/txt_targetSavingAmount"/>
+                <EditText
+                    android:id="@+id/goal_editSavings"
+                    android:layout_width="@dimen/currency_width"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <SeekBar
+                android:id="@+id/goal_seekSavings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
 
 </LinearLayout>

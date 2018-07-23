@@ -6,5 +6,6 @@
     <color name="colorSecondary">#b66319</color>
     <color name="colorSecondaryDark">#7d2709</color>
     <color name="colorSecondaryLight">#efbb48</color>
+    <color name="colorNeutralLight">#ccc</color>
     <color name="colorAccent">#FF4081</color>
 </resources>

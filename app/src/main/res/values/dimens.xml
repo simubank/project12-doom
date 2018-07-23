@@ -4,4 +4,5 @@
     <dimen name="section_margin">20dp</dimen>
     <dimen name="control_margin">10dp</dimen>
     <dimen name="menu_marginTop">6dp</dimen>
+    <dimen name="currency_width">80dp</dimen>
 </resources>
