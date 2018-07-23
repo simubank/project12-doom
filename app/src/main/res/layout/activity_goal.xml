@@ -118,14 +118,16 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/control_margin"
                     style="@style/TextH2"
                     android:textColor="@color/colorPrimaryDark"
                     android:text="@string/txt_targetSavingAmount"/>
                 <Spinner
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
                     android:textAlignment="textEnd"
+
+                    android:prompt="hello"
                     android:entries="@array/savings_frequency"/>
             </LinearLayout>
 

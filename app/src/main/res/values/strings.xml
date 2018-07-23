@@ -16,11 +16,4 @@
     <string name="rad_weekly">Weekly</string>
     <string name="rad_monthly">Monthly</string>
     <string name="rad_yearly">Yearly</string>
-
-    <string-array name="savings_frequency">
-        <item>Daily</item>
-        <item>Weekly</item>
-        <item>Monthly</item>
-        <item>Yearly</item>
-    </string-array>
 </resources>
