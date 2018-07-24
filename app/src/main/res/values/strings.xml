@@ -17,4 +17,9 @@
     <string name="rad_weekly">Weekly</string>
     <string name="rad_monthly">Monthly</string>
     <string name="rad_yearly">Yearly</string>
+
+    <string name="phone_advisor">18558826918</string>
+    <string name="text_td">834357</string>
+    <string name="appointment_site">https://www.td.com/ca/en/personal-banking/products/borrowing/lines-of-credit/student-line-of-credit/#/university</string>
+    <string name="alert_titleContact">Contact us via</string>
 </resources>

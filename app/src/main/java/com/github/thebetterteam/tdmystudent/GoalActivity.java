@@ -1,6 +1,7 @@
 package com.github.thebetterteam.tdmystudent;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -46,7 +47,7 @@ public class GoalActivity extends AppCompatActivity {
     }
 
     private void displayLoanApplicationActivity() {
-        Intent i = new Intent(this, LoanApplicationActivity.class);
+        Intent i = new Intent("android.intent.action.VIEW", Uri.parse("https://www.td.com/ca/en/personal-banking/products/borrowing/lines-of-credit/student-line-of-credit/#/university"));
         startActivity(i);
     }
 
