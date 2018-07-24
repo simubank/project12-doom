@@ -17,4 +17,10 @@
     <string name="rad_weekly">Weekly</string>
     <string name="rad_monthly">Monthly</string>
     <string name="rad_yearly">Yearly</string>
+    <string name="contri_amount">Contribute Amount</string>
+    <string name="contri_now">Contribute now!</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="cancel">Cancel</string>
+    <string name="contri_confirmation">Contribute now?</string>
 </resources>
