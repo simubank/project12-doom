@@ -221,7 +221,7 @@
                     android:layout_centerVertical="true"
                     android:textColor="@color/colorSecondaryLight"
                     android:textStyle="bold"
-                    android:text="25%" />
+                    android:text="40%" />
             </RelativeLayout>
 
             <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -233,7 +233,7 @@
                     android:layout_height="match_parent"
                     style="@style/AltProgressBar"
                     android:id="@+id/main_prgSpending"
-                    android:progress="25"/>
+                    android:progress="40"/>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -245,7 +245,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="#00000000"
-                        android:text="$100"
+                        android:text="$400"
                         android:textColor="#fff"
                         android:textSize="18sp"
                         android:textStyle="bold"
@@ -254,7 +254,7 @@
                         android:id="@+id/main_txtSpendingGoal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=" / $400"
+                        android:text=" / $1000"
                         android:textSize="12sp"
                         android:textColor="@color/colorSecondary"/>
                 </LinearLayout>
@@ -269,18 +269,6 @@
             android:layout_marginTop="@dimen/control_margin"
             android:theme="@style/BigButton"
             android:text="@string/btn_contribute"/>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <Button
-                android:id="@+id/main_btnCus"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:text="Button" />
-        </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"

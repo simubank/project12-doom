@@ -173,73 +173,65 @@
 
         <RelativeLayout
             android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
             <EditText
-                android:id="@+id/editText1"
+                android:id="@+id/goal_editEnrollment"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="80dp"
+                android:layout_centerHorizontal="true"
                 android:ems="10"
+                android:inputType="date"
                 android:hint="Enter Enrollment Date" />
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/goal_btnEnrollmentCalendar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/editText1"
-                android:layout_marginLeft="120dp"
-                android:text="Calendar" />
-            <TextView
-                android:id="@+id/textView1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/button1"
-                android:layout_marginLeft="100dp"
-                android:textStyle="bold"
-                android:textSize="18dp"/>
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/goal_editEnrollment"
+                android:text="Change enrollment date" />
 
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent" android:layout_height="wrap_content">
             <EditText
-                android:id="@+id/editText1"
+                android:id="@+id/goal_editGraduation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="80dp"
+                android:layout_centerHorizontal="true"
                 android:ems="10"
+                android:inputType="date"
                 android:hint="Enter Graduation Date" />
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/goal_btnGraduationCalendar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/editText1"
-                android:layout_marginLeft="120dp"
-                android:text="Calendar" />
-            <TextView
-                android:id="@+id/textView1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/button1"
-                android:layout_marginLeft="100dp"
-                android:textStyle="bold"
-                android:textSize="18dp"/>
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/goal_editGraduation"
+                android:text="Change graduation date" />
 
         </RelativeLayout>
 
         <Button
-            android:id="@+id/main_btnContact"
+            android:id="@+id/goal_btnSave"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:theme="@style/LongButton"
             android:text="Save"
             android:textSize="14sp"/>
 
-
         <Button
-            android:id="@+id/main_btnContact2"
+            android:id="@+id/goal_btnReset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:theme="@style/LongButton"
-            android:text="Rewind to previous dates"
+            android:backgroundTint="@color/colorSecondary"
+            android:text="Reset"
             android:textSize="14sp"/>
 
     </LinearLayout>
