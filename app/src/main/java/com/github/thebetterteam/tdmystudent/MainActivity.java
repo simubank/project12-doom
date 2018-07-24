@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         Button btnCus = findViewById(R.id.main_btnCus);
         Button btnContact = findViewById(R.id.main_btnContact);
 
-
         // Event-listeners
         btnGoalDetails.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
     private void displayCustomerInfo() {
         Intent i = new Intent(this, CustomerInfo.class);
         startActivity(i);
+    }
 
     private void contactFinancialAdvisor() {
         CharSequence options[] = getResources().getStringArray(R.array.contact_options);
