@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void displayLoanApplicationActivity() {
-        Intent i = new Intent("android.intent.action.VIEW", Uri.parse("https://www.td.com/ca/en/personal-banking/products/borrowing/lines-of-credit/student-line-of-credit/#/university"));
+        Intent i = new Intent("android.intent.action.VIEW", Uri.parse(getResources().getString(R.string.appointment_site)));
         startActivity(i);
     }
 
@@ -74,8 +74,26 @@ public class MainActivity extends AppCompatActivity {
         builder.setTitle(getResources().getString(R.string.alert_titleContact));
         builder.setItems(options, new DialogInterface.OnClickListener() {
             @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-
+            public void onClick(DialogInterface dialog, int choice) {
+                Intent intent = null;
+                switch (choice) {
+                    case 0:  // Call
+                        intent = new Intent(Intent.ACTION_CALL);
+                        intent.setData(Uri.parse("tel:" + getResources().getString(R.string.phone_advisor)));
+                        break;
+                    case 1:  // Text
+                        intent = new Intent(Intent.ACTION_VIEW);
+                        intent.putExtra("address", getResources().getString(R.string.text_td));
+                        intent.setData(Uri.parse("sms:" + getResources().getString(R.string.text_td)));
+                        break;
+                    case 2:  // Book appointment
+                        intent = new Intent(Intent.ACTION_VIEW,
+                                Uri.parse(getResources().getString(R.string.appointment_site)));
+                        break;
+                    default:
+                        return;
+                }
+                startActivity(intent);
             }
         });
     }
