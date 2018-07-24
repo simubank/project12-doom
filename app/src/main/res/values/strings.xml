@@ -17,18 +17,16 @@
     <string name="rad_weekly">Weekly</string>
     <string name="rad_monthly">Monthly</string>
     <string name="rad_yearly">Yearly</string>
-<<<<<<< HEAD
 
     <string name="phone_advisor">18558826918</string>
     <string name="text_td">834357</string>
     <string name="appointment_site">https://www.td.com/ca/en/personal-banking/products/borrowing/lines-of-credit/student-line-of-credit/#/university</string>
     <string name="alert_titleContact">Contact us via</string>
-=======
+
     <string name="contri_amount">Contribute Amount</string>
     <string name="contri_now">Contribute now!</string>
     <string name="confirm">Confirm</string>
     <string name="confirmation">Confirmation</string>
     <string name="cancel">Cancel</string>
     <string name="contri_confirmation">Contribute now?</string>
->>>>>>> origin/api2
 </resources>
