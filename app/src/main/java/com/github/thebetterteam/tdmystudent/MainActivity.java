@@ -96,5 +96,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        builder.setCancelable(true);
+        builder.show();
     }
 }
