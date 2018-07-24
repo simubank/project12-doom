@@ -169,36 +169,61 @@
                     android:inputType="numberDecimal"
                     android:textAlignment="center" />
             </LinearLayout>
-
-            <RadioGroup
-                android:id="@+id/goal_rgrpSavingsFrequency"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/margin_tab">
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:buttonTint="@color/colorPrimary"
-                    android:text="@string/rad_daily"/>
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:buttonTint="@color/colorPrimary"
-                    android:text="@string/rad_weekly"/>
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:buttonTint="@color/colorPrimary"
-                    android:checked="true"
-                    android:text="@string/rad_monthly"/>
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:buttonTint="@color/colorPrimary"
-                    android:text="@string/rad_yearly"/>
-            </RadioGroup>
-
         </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:ems="10"
+                android:hint="Enter Enrollment Date" />
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText1"
+                android:layout_marginLeft="120dp"
+                android:text="Calendar" />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button1"
+                android:layout_marginLeft="100dp"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:ems="10"
+                android:hint="Enter Graduation Date" />
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText1"
+                android:layout_marginLeft="120dp"
+                android:text="Calendar" />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button1"
+                android:layout_marginLeft="100dp"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+
+        </RelativeLayout>
 
         <Button
             android:id="@+id/main_btnContact"
@@ -209,44 +234,16 @@
             android:textSize="14sp"/>
 
 
-         <Button
-             android:id="@+id/main_btnContact2"
+        <Button
+            android:id="@+id/main_btnContact2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:theme="@style/LongButton"
             android:text="Rewind to previous dates"
             android:textSize="14sp"/>
 
-        </LinearLayout>
+    </LinearLayout>
 
-    <?xml version="1.0" encoding="utf-8"?>
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent" android:layout_height="match_parent">
-        <EditText
-            android:id="@+id/editText1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp"
-            android:layout_marginTop="150dp"
-            android:ems="10"
-            android:hint="Enter Date" />
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/editText1"
-            android:layout_marginLeft="100dp"
-            android:text="Get Date" />
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/button1"
-            android:layout_marginLeft="100dp"
-            android:layout_marginTop="10dp"
-            android:textStyle="bold"
-            android:textSize="18dp"/>
 
-    </RelativeLayout>
 
 </LinearLayout>

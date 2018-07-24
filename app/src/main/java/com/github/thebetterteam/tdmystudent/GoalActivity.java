@@ -63,4 +63,6 @@ public class GoalActivity extends AppCompatActivity {
         Intent i = new Intent(this, ReferralActivity.class);
         startActivity(i);
     }
+
+
 }
