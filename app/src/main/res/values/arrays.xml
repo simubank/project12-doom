@@ -6,4 +6,9 @@
         <item>Monthly</item>
         <item>Yearly</item>
     </string-array>
+    <string-array name="contact_options">
+        <item>Call</item>
+        <item>Text</item>
+        <item>Book appointment</item>
+    </string-array>
 </resources>

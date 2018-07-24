@@ -17,4 +17,7 @@
     <string name="rad_weekly">Weekly</string>
     <string name="rad_monthly">Monthly</string>
     <string name="rad_yearly">Yearly</string>
+
+    <string name="phone_advisor">tel:18558826918</string>
+    <string name="alert_titleContact">Contact us</string>
 </resources>
