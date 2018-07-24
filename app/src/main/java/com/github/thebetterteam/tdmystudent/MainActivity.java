@@ -20,7 +20,9 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout btnGoalDetails = findViewById(R.id.main_btnGoalDetails);
         LinearLayout btnApplyLoan = findViewById(R.id.main_btnApplyLoan);
         LinearLayout btnRefer = findViewById(R.id.main_btnRefer);
+        Button btnCus = findViewById(R.id.main_btnCus);
         Button btnContact = findViewById(R.id.main_btnContact);
+
 
         // Event-listeners
         btnGoalDetails.setOnClickListener(new View.OnClickListener() {
@@ -41,6 +43,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 displayReferralActivity();
+            }
+        });
+
+        btnCus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                displayCustomerInfo();
             }
         });
 
@@ -66,6 +75,10 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, ReferralActivity.class);
         startActivity(i);
     }
+
+    private void displayCustomerInfo() {
+        Intent i = new Intent(this, CustomerInfo.class);
+        startActivity(i);
 
     private void contactFinancialAdvisor() {
         CharSequence options[] = getResources().getStringArray(R.array.contact_options);
